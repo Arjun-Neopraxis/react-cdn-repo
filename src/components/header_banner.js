@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import reactToWebComponent from 'react-to-webcomponent';
+import ReactDOM from 'react-dom';
+
 
 const HeaderBanner = () => {
   const [contentIndex, setContentIndex] = useState(0);
