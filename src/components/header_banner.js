@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
  
-const HeaderBanner = (props) => {
+const HeaderBanner = () => {
     const [contentIndex, setContentIndex] = useState(0);
     const contents = ['we are here for you', 'Your search ends here', 'the new era of BC']; // Add your desired contents here
   
@@ -21,4 +21,4 @@ const HeaderBanner = (props) => {
     </div>
   );
 };
-export default HeaderBanner;
+ReactDOM.render(<HeaderBanner />, document.getElementById('root'));
