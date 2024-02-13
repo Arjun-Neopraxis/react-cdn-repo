@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
  
-export default function HeaderBanner() {
+const HeaderBanner = (props) => {
     const [contentIndex, setContentIndex] = useState(0);
     const contents = ['we are here for you', 'Your search ends here', 'the new era of BC']; // Add your desired contents here
   
@@ -20,4 +20,5 @@ export default function HeaderBanner() {
       <h6 className='banner-header' style={{color: 'white', backgroundColor: 'black', textAlign: 'center', padding: '5px'}}>{contents[contentIndex]}</h6>
     </div>
   );
-}
+};
+export default HeaderBanner;
