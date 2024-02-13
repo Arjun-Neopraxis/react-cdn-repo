@@ -17,7 +17,7 @@ const HeaderBanner = () => {
 
   return (
     <div className="header-banner">
-      <h6 className='banner-header' style={{color: 'white', backgroundColor: 'black', textAlign: 'center', padding: '5px'}}>{contents[contentIndex]}</h6>
+      <h6 className='banner-header' style={{color: 'white', backgroundColor: 'red', textAlign: 'center', padding: '5px'}}>{contents[contentIndex]}</h6>
     </div>
   );
 };
