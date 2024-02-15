@@ -6,7 +6,7 @@ module.exports = [
   entry: './src/MyReactComponent.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'MyReactComponent.js',
+    filename: 'MyReactComponent.[chunkhash].js',
     library: 'MyReactComponent',
     libraryTarget: 'umd',
     umdNamedDefine: true,
