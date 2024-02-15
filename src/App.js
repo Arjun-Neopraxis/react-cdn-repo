@@ -1,5 +1,6 @@
 import './App.css';
-import HeaderBanner from './components/header_banner';
+// import HeaderBanner from './components/header_banner';
+import HeaderBanner from './header_banner';
 import MyReactComponent from './MyReactComponent';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
