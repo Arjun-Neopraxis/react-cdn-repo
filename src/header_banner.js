@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
  
 export default function HeaderBanner() {
   // const [count, setCount] = useState(0);
-    const [contentIndex, setContentIndex] = useState(0);
+    // const [contentIndex, setContentIndex] = useState(0);
     const contents = ['We Have','What You are','Searching for!']; // Add your desired contents here
   
     useEffect(() => {
