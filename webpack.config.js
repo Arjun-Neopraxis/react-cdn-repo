@@ -32,7 +32,7 @@ module.exports = [
   entry: './src/header_banner.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'HeaderBanner.js',
+    filename: 'HeaderBanner.[chunkhash].js',
     library: 'HeaderBanner',
     libraryTarget: 'umd',
     umdNamedDefine: true,
