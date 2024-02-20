@@ -14,8 +14,9 @@ export default function HeaderBanner() {
    
       // Clear the interval when the component is unmounted
       return () => clearInterval(intervalId);
+      
     }, [contentIndex, contents.length]);
-
+    console.log("console from component",setContentIndex);
 
   return (
     <div className="header-banner">
