@@ -16,7 +16,7 @@ export default function HeaderBanner() {
       return () => clearInterval(intervalId);
       
     }, [contentIndex, contents.length]);
-    console.log("console from component",setContentIndex);
+    console.log("console from component");
 
   return (
     <div className="header-banner">
